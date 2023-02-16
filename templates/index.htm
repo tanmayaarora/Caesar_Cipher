@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<link href="styles.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<title>
+	Caesar Cipher
+</title></head>
+
+
+<body style="background-image: url({{logo}})">
+	<center>
+	<div id="down" style="margin-bottom: 60px;
+	margin-top: 75px;">
+	<h2 style="color: #00CFFF;margin-bottom: 25px;">Fill the form below to encode or decode a text</h2><br/>
+		
+		<form id="myform1" method="post" action="/result">
+			
+			<h4 style="color: #537FE7;">Message*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="usermessage" style="background: #00FFFF;color: #000000;" required> </h4><br><br> 
+
+			<h4 style="color: #537FE7;">Shift amount*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" min=0 name="shift" style="background: #00FFFF;color: #000000;" required> </h4><br><br>
+			
+			<h4 style="color: #537FE7;">Select Encode/Decode: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label style="color: #00FFFF;">Encode
+  			<input type="radio" checked="checked" name="encdec" id="encoderadio" value="encode">
+
+			</label>
+			<label style="color: #00FFFF;">Decode <input type="radio" name="encdec" id="decoderadio" value="decode">
+
+			</label> </h4>
+
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h4><input type="submit" name="show" style="background: #E1EEDD;color: #00A000;border-radius: 4px;" value="Calculate">&nbsp;&nbsp;
+			<input type="submit" name="cancel" value="Cancel" style="background: #E1EEDD;color: #00A000;border-radius: 4px;" onclick="window.location='/'; return false;"><br></h4>
+
+</form>
+
+<h3 style="background: #E1EEDD;color: #00A000;margin-top:100px;padding-top:5px;"> {{output}} </h3></center></div>
+		
+</div>
+
+</img>
+</div>
+</body></html>

@@ -1,0 +1,56 @@
+/* CSS layout */
+
+body {
+	padding: 0;
+	text-align: justify;
+	font: 15px Arial, Helvetica, sans-serif;
+	color: #609EA2;
+}
+
+img {
+	width: 10px;
+}
+
+h1, h1 a, h2, h2 a, h3, {
+	padding-top: 5px;
+	text-decoration: none;
+	font-family: Tahoma, Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	color: #FF1313;
+}
+
+h1 {
+	letter-spacing: -1px;
+	font-size: 1.8em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h2 {
+	letter-spacing: -1px;
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.2em;
+}
+
+#page {
+	margin-left: 80px;
+	background: #AAAAAA;
+}
+
+#up {
+	margin-left: 10px;
+}
+
+#down {
+	margin-left: 20px;
+	margin-bottom: 140px;
+	margin-top: 50px;
+}
+
+#myform1 {
+	padding-top: 20px;
+	margin-top: 75px;
+}
+
